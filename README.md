@@ -1,4 +1,4 @@
-**<h1>Simple Spotify Playlist Creator</h1>**
+**<h1>Simple Discord based Spotify playlist creator</h1>**
 
 **<h3>Introduction</h3>**
 This project is a Spotify playlist creator that generates playlists based on the Billboard Hot 100 and user input. It is triggered via a Discord bot command '/spotify &lt;date&gt;', and utilizes Azure Functions to process the request and create the playlist. The user receives a link to a 100-song Spotify playlist corresponding to the provided date.

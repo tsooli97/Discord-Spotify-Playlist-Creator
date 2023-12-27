@@ -18,7 +18,7 @@ This project is a Spotify playlist creator that generates playlists based on the
 https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python?pivots=python-mode-decorators
 
 **<h3>Bot Setup</h3>** 
-Configure your Discord bot in the Discord Developer Portal and connect it to your Azure Functions app endpoint url.
+Configure your Discord bot in the Discord Developer Portal, add application command(s) to it using an IDE of your choice and finally, connect it to your Azure Functions app endpoint url.
 https://discord.com/developers/docs/getting-started
 
 **<h3>Spotify Developer Setup</h3>**

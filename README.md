@@ -33,6 +33,7 @@ Set up the necessary environment variables in Azure
 **<h3>Playlist Creation</h3>**
 Use the Discord bot command '/spotify &lt;date&gt;' (in DD.MM.YYYY format) to initiate the playlist creation.
 ![First step: initiate the playlist creation using the '/spotify &lt;date&gt;' command](https://i.imgur.com/pBzQAQL.png)
+![Wait for the process to complete in just a bit](https://i.imgur.com/gbMgcWL.png)
 
 **<h3>Receiving the Playlist</h3>**
 A link to the Spotify playlist will be returned to the user, which can be opened, listened to, and saved in Spotify. <br>

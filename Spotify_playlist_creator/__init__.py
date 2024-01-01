@@ -1,18 +1,12 @@
-#Import all the necessary libraries
 import azure.functions as func
 import json
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PublicKey
 from cryptography.exceptions import InvalidSignature
-import random
 import logging
 import requests
 from .spotify_playlist_creator import SpotifyPlaylistCreator
 import threading
 import os
-import html
-import math
-from bs4 import BeautifulSoup
-from datetime import datetime, timezone
 
 # Environment variables for the Discord bot token and public key
 BOT_TOKEN = os.getenv("BOT_TOKEN")

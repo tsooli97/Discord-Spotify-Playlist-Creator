@@ -1,4 +1,4 @@
-import requests  # Using requests instead of aiohttp
+import requests
 from spotipy import Spotify, SpotifyOAuth
 from bs4 import BeautifulSoup
 import datetime
@@ -142,5 +142,3 @@ class SpotifyPlaylistCreator:
             if response.status_code not in range(200, 299):
                 logging.error(f"Failed to add track URI {uri}: {response_json}")
         return self.playlist_url
-
-
